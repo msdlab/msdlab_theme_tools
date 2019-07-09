@@ -11,7 +11,7 @@ if(!class_exists('GitHubPluginUpdater')){
 }
 
 if ( is_admin() ) {
-    new GitHubPluginUpdater( __FILE__, 'msdlab', "msdlab-theme-tools" );
+    new GitHubPluginUpdater( __FILE__, 'msdlab', "msdlab_theme_tools" );
 }
 
 
